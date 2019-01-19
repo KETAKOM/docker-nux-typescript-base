@@ -3,6 +3,7 @@ version: '3'
 services:
   app:
     build: ./docker/
+    container_name: nuxt-app
     ports:
       - "2222:3000"
     volumes:
