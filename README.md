@@ -7,7 +7,9 @@ DockerでNuxt.js+TypeScript開発環境を構築した
 
 ```sh
 > git clone git@github.com:KETAKOM/docker-nuxt-typescript-base.git
-> cd nuxtjs-typescript-with-docker
+> cd docker-nux-typescript-base
+> docker-compose up -d --build
+> docker exec -it nuxt-app bash
 > cd app
 > yarn
 > yarn dev
