@@ -1,0 +1,10 @@
+
+■VSCodeで開発しているとDecoratorに関するエラーが出ていた。
+・解決方法
+tsconfig.jsonにエラー内容で指示された'experimentalDecorators:true' と'allowJs:true'を追加して
+VSCodeを再起動させる。
+・やったこと
+'experimentalDecorators:true' と'allowJs:true'はtsconfig.jsonに存在していたので、
+VSCodeの再起動だけを実施。→解決した。
+
+参考サイト：http://www.l08084.com/entry/2018/02/09/154824

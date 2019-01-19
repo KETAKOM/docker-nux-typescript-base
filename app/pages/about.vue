@@ -2,13 +2,7 @@
   <section>
     <h1 class="header">Nuxt TypeScript Starter</h1>
     <div class="cards">
-      <Card
-        v-for="person in people"
-        :key="person.id"
-        :person="person"
-      ></Card>
-      ></Card>
-      <h1>test</h1>
+      <h1>about</h1>
     </div>
   </section>
 </template>
@@ -19,7 +13,7 @@ import {
   Vue
 } from "nuxt-property-decorator"
 import { State } from "vuex-class"
-import { Person } from "../types";
+import { Person } from "~/types";
 import Card from "~/components/Card.vue"
 
 @Component({
